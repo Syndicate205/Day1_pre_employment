@@ -1,0 +1,9 @@
+NOTE: 
+1. service i work animation okay na ang apparel ang col1 wala pa na start chuchu
+
+2. work ang responsive para lain devices
+
+2.1. done ang para tablet 
+2.2. for iphone wala pa
+2.3. for anroid wala pa 
+2.4. for small devices wala pa
