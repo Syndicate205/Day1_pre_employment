@@ -1,0 +1,72 @@
+@font-face {font-family: "MemphisRiver";src: url(fonts/MemphisRiver.otf);}
+a{text-decoration: none;}
+body{margin:auto;padding: auto;background-color: white; font-family:Verdana, Geneva, Tahoma, sans-serif;}
+/* ----------------------------------------------------------------------------- Start of header section ----------------------------------------------------------------------------- */
+header{width: 100%;height: auto;}
+.header{width: 100%;min-height: 1vh;box-sizing: border-box;overflow: hidden;}
+.top-header{overflow: hidden;width: 100%;margin: auto;padding: auto;background-color: black;overflow: hidden;}
+.logo{margin:10px;width: 200px;height: auto;}
+.navbar{top: 0;left: 0;display: flex;width: 100%;justify-content: space-between;padding: 20px;color: white;text-transform: uppercase;}
+ul{list-style: none;}
+.nav-links{display: flex;align-items: center;/* margin-top: -900px; */transition: all 1s ease;}
+.menu-btn{position: absolute;top: 35px;right: 95vh;width: 40px;cursor: pointer;display: none;}
+.mobile-menu{margin-top: 0;border-bottom-right-radius: 30%;border-bottom-left-radius: 30%;}
+.nav-links li{margin: 0 50px;}
+.nav-links li a{ color: white;}
+li a:hover{background-color: #cb9942;padding: 10px;border-radius: 10px;}
+/* ----------------------------------------------------------------------------- End of header section ----------------------------------------------------------------------------- */ 
+/* ----------------------------------------------------------------------------- Start of banner section ----------------------------------------------------------------------------- */
+.banner{width: 100%;height: 49vw;background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(images/slider/3.jpg);background-position: center top;background-size: 100%;background-repeat: no-repeat;display: flex;align-items: center;justify-content: center;}
+.banner-content{margin-bottom: 150px;margin-top: 5%;margin-left: -35%;color:white;text-align: center;}
+.banner-content h2{font-size: 2vmin;text-transform: uppercase;}
+.banner-content h1{font-size: 7vmin;font-family: 'MemphisRiver';color: #eab406;margin-bottom: 20px;}
+.banner-content p{font-size: 2vmin;margin-bottom: 5%;}
+.banner-content .option-1:hover{padding: 4% 15%;border: none;background-color: #efbb06;color: white;border-radius: 50px;box-shadow: inset 0 0 0 0 #efbb06;transition: ease-out 0.3s;outline: none;}
+.banner-content .option-2:hover{padding: 4% 15%;border: none;background-color: white;color: #efbb06;border-radius: 50px;box-shadow: inset 0 0 0 0 #efbb06;transition: ease-out 0.3s;outline: none;}
+.option-1{padding: 3% 15%;background-color: white;border-radius: 50px;color: black;font-size: 12px;text-transform: uppercase;}
+.option-2{padding: 3% 15%;background-color: #eab406;border-radius: 50px;color: white;font-size: 12px;text-transform: uppercase;}
+.option-1, .option-2{margin: 0 2%;}
+/* ----------------------------------------------------------------------------- End of banner section ----------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- Start of service section -------------------------------------------------------------------------------- */
+.service{background-color: white;width: 100%;min-height: 1vh;box-sizing: border-box;background-color: black;}
+.service-content{width: 100%;min-width: 1vh;height: 48vw;box-sizing: border-box;overflow: hidden}
+.service-content-container img{width: 100%;height: auto;object-fit: cover;opacity: 0.5;}
+.service-content-row::after{content: "";display: table;clear: both;}
+.service-content-row{position: relative;display: flex;align-items: center;justify-content: center;}
+.col1, .col2{float: left;width: 100%;height: auto;padding: 0;margin: 0;}
+.col1-sub1 a{color: #eab406;text-transform: uppercase;font-weight: bold;font-size: 28px;position: absolute;top: 25%;left: 22%;transform: translate(-50%, -50%);}
+.col1-sub2 a{color: #eab406;text-transform: uppercase;font-weight: bold;font-size: 28px;position: absolute;top: 73%;left: 22%;transform: translate(-50%, -50%);}
+.col2-sub a{color: #eab406;text-transform: uppercase;font-weight: bold;font-size: 28px;position: absolute;top: 48%;left: 72%;transform: translate(-50%, -50%);}
+.col1-sub1 a:hover, .col1-sub2 a:hover, .col2-sub a:hover{padding: 1%;border: none;background-color: #efbb06;color: white;border-radius: 50px;box-shadow: inset 0 0 0 0 #efbb06;transition: ease-out 0.3s;font-size: 2rem;outline: none;}
+/* -------------------------------------------------------------------------------Start of main content ---------------------------------------------------------------------------------*/
+.main-content{width: 100%;min-height: 1vh;box-sizing: border-box;overflow: hidden;background-color: white;}
+.line{width: 100px;height: 2px;background: #eab406;margin: 2% auto;border-radius: 5px;}
+.main-content-body h2{margin-top: 1%;text-align: center;text-transform: uppercase;}
+.main-content-body h3{text-align: center;font-weight: lighter;}
+.main-content-content{width: 100%;min-width: 1vh;box-sizing: border-box;overflow: hidden;}
+.main-content-container img{width: 100%;}
+.main-content-row::after{content: "";display: table;clear: both;}
+.main-content-row{display: flex;align-items: center;justify-content: center;}
+.col-1, .col-2, .col-3{float: left;width: 15%;height: auto;padding: 0 3px;margin: 1% 0 -3px 0;}
+/* ----------------------------------------------------------------------------- End of main content ----------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- Start of sub-content ----------------------------------------------------------------------------- */
+.sub-content{width: 100%;min-height: 1vh;box-sizing: border-box;overflow: hidden;}
+.sub-content-img{width: 100%;height: 20vw;background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/btm2-bg.jpg);background-repeat: no-repeat;background-position: center top;background-size: 100%;display: flex;align-items: center;justify-content: center;}
+.sub-content-content{width: 100%;min-width: 1vh;box-sizing: border-box;overflow: hidden;}
+.sub-content-container img{width: 100%;}
+.sub-content-row::after{content: "";display: table;clear: both;}
+.col-arrival, .col-best, .col-sale{float: left;width: 15%;height: auto;padding: 5px;margin: 1% 0 0 3%;}
+.col-arrival p, .col-best p, .col-sale p{color: #efbb06;text-transform: uppercase;white-space: pre;margin: 10% 0;}
+/* ----------------------------------------------------------------------------- Start of footer section ----------------------------------------------------------------------------- */
+.footer{width: 100%;min-height: 1vh;box-sizing: border-box;overflow: hidden;}
+.footer-img{width: 100%;height: 15vw;background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/btm4-bg.jpg);background-repeat: no-repeat;background-position: center top;background-size: 100%;display: flex;align-items: center;justify-content: center;}
+.footer-content{width: 100%;height: 7.5vw;padding-top: 2vw;background-color: #97770c;}
+.social-media{display: flex;align-items: center;justify-content: center;width: 15%;height: auto;margin-left: 42.5%;}
+.social-media div{margin: 0 3.5%;}
+.social-media .fb img{width: 60%; height: auto;}
+.social-media .tw img{width: 60%; height: auto;}
+.social-media .phone img{width: 100%; height: auto;}
+.social-media img:hover{padding: 10px;border: none;background-color: #efbb06;border-radius: 100%;box-shadow: inset 0 0 0 0 #efbb06;transition: ease-out 0.3s;outline: none;}
+.footer-text{color: white;text-align: center;margin-top: 1.5%;font-weight: 500;}
+/* ----------------------------------------------------------------------------- End of footer section ----------------------------------------------------------------------------- */
+
